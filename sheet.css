@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+    font-family: cursive;
+    background-image: url(new.png);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+p::selection{
+    color:red;
+    background-color: black;
+}
+
